@@ -1,0 +1,844 @@
+*{
+	margin: 0;
+}
+/*video awal*/
+.video{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#link_yayasan{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+#ginting{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+.info-location{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+.socialmedia{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+.vid-ket{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+}
+.jdl-artikel{
+    font-family: "Oswald", sans-serif;
+}
+.jdl-card{
+    font-family: "Oswald", sans-serif;
+}
+.des-sklh{
+    font-family: "Oswald", sans-serif;
+}
+#isi-kata-sambutan{
+    font-family: "Oswald", sans-serif;
+}
+#akreditasi{
+    font-family: "Oswald", sans-serif;
+}
+#jalan{
+    font-family: "Oswald", sans-serif;
+}
+.frame{
+    width: 35%;
+    height: 500px;
+    background-color: green;
+    border-radius: 30px;
+}
+.vid-frame{
+    width: 100%;
+    /*height: 60%;*/
+    background-color: black;
+}
+.vid-ket{
+    text-align: justify;
+    padding: 20px;
+    font-family: "Concert One", sans-serif;
+    font-weight: 2;
+}
+iframe{
+    width: 100%;
+}
+@media only screen and (max-width: 1000px){
+    .frame{
+        width: 50%;
+    }
+}
+/*akhir video*/
+
+#web{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+#logo_yayasan{
+    width: 30%;
+}
+.des-sklh{
+ text-align: center;
+ background-color: #08cf0e;
+ border-bottom-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+ color: white;
+ padding: 20px;
+}
+#gbr_logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#hub{
+    padding: 20px;
+}
+#link_yayasan{
+    text-decoration: none;
+    color: black;
+    font-weight: 400px;
+    font-size: 20pt;
+}
+.header-image{
+	width: 95%;
+	margin:auto;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px grey;
+    background-color: black;
+
+}
+#sma, #akreditasi, #jalan{
+    margin-left: 20px;
+}
+#sma{
+        font-family: "Concert One", sans-serif;
+        font-weight: 900;
+        font-style: bold;
+}
+.text-menu{
+    margin-top: 12px;
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    width: 50px;
+}
+.header-aktivitas{
+	/*background-color:#16b316;*/
+	color: black;
+}
+#jdl-aktivitas{
+	text-align: center;
+	padding: 20px;
+}
+.gbr-header{
+	width: 100%;
+
+}
+.card-aktivitas{
+	width: 22%;
+	background-color: #08cf0e;
+	color: white;
+ 
+	box-shadow: 3px 3px 3px grey;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+#logo{
+    width: 70px;
+    margin-left: 70%;
+    margin-top: 10px;
+}
+.gbr-card{
+	width: 100%;
+
+}
+#jdl-kata-sambutan{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #08cf0e;;
+    color: white;
+    padding: 10px;
+}
+#artikel-info{
+    width: 100%;
+    padding-bottom: 20px;
+    
+   
+}
+#sambutan{
+    width: 100%;
+    /*background-color: #31b131;*/
+    color: black;
+}
+#kata-sambutan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    width: 70%;
+    
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#gbr-kepsek{
+    width: 20%;
+}
+#ket-sambutan{
+    display: flex;
+    flex-direction: column;
+}
+#jdl-artikel-info{
+    
+    text-align: center;
+    background-color: darkgreen;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    color: white;
+}
+.ket-artikel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+
+}
+.ket-artikel:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+    border-radius: 10px;
+    color: white;
+}
+#artikel{
+        display: flex;
+    flex-direction: row;
+        flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap:2em;
+}
+.gbr-artikel{
+    width: 100px;
+}
+.aktivitas{
+    
+    padding-bottom: 20px;
+	width: 100%;
+}
+/*.header-aktivitas{
+	width: 50%;
+	height: 100px;
+	background-color: darkgreen;
+	margin: auto;
+}*/
+.info-aktivitas{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	gap:2em;
+	background-color:#5a685a;
+    padding-bottom: 40px;
+    padding-top: 40px;
+	/*padding: 40px;*/
+}
+.register{
+    width: 550px;
+    /*height:150px;*/
+    background-color: #1c370b;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    visibility: hidden;
+   
+    
+}
+
+.jdl-card, .deskripsi-card{
+	padding: 20px;
+}
+.jdl-card{
+	text-align: center;
+}
+/*.register{
+   visibility: hidden;
+}*/
+
+
+#info-daftar{
+    margin-top: 20px;
+    
+    color: white;
+}
+h6{
+    font-size: 15pt;
+   /* background-color: darkgreen;*/
+    color: white;
+    padding: 5px;
+}
+#ket-daftar{
+    text-align: justify;
+    /*padding-right: 15px;*/
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+#wa-daftar{
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: darkgreen;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+#wa-daftar:hover{
+	background-color: yellowgreen;
+	
+	font-weight: bold;;
+	font-style: italic;
+}
+#klik-info{
+    width: 200px;
+    text-align: center;
+   padding: 15px;
+    border-radius: 30px;
+    background-color: darkgreen;
+    color: white;
+    /*position: fixed;*/
+    margin-left: 40px;
+    position: fixed;
+    bottom:10px;
+   
+}
+#klik-info:hover{
+    background-color: darkblue;
+    color: yellow;
+    cursor: pointer;
+    font-style: italic;
+}
+.navbar{
+	width: 100%;
+	height: 100px;
+	background-color: darkgreen;
+	display: flex;;
+	flex-direction: row;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 3px 3px 3px grey;
+
+}
+#icon-daftar{
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.side-logo{
+	background-color: white;
+	width: 30%;
+}
+.nama-sekolah{
+	background-color: white;
+	width: 60%
+
+}
+#buku{
+    padding-top: 120px;
+    text-align: justify;
+    
+}
+/*Menu*/
+#bar{
+	background-color: #08cf0e;
+	color: white;
+	width: 10%;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+    /*gap:3em;*/
+}
+.icon-sosmed{
+    width: 40px;
+}
+.sosmed{
+    
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    /*gab:1em;*/
+    /*margin-left: 70px;*/
+    /*padding: 10px;*/
+    /*margin-top: 50px;*/
+}
+.sosmed:hover{
+   
+    
+    /*width: 120px;
+   
+    font-style: italic;*/
+}
+.socialmedia{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+p{
+    padding-bottom: 20px;
+}
+#ket-sosmed{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.list-menu{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	padding-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+#sekolah-hijau{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap:2em;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background-color: #5a685a;*/
+
+}
+#head-sekolah{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#sklh-hijau{
+    background-color: darkgreen;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.info-location{
+    padding-top: 5px;
+    padding-left: 20px;
+    width: 250px;
+}
+#gogreen{
+    margin-left: 35%;
+    margin-top: 20px;
+    width: 30%;
+}
+.lokasi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.location{
+    width: 30px;
+}
+.vid-kegiatan{
+    width: 30%;
+    height: 400px;
+    
+}
+
+.vid{
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+    
+}
+#head-vid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#info-vid{
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+}
+
+.gbr-sekolah{
+    width: 30%;
+    border-radius: 30px;
+}
+.ket-vid{
+    color: white;
+    background-color: black;
+    text-align: justify;
+    padding: 10px;
+
+}
+.foto-sekolah{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+/*iframe{
+    border-radius: 35px;
+}*/
+#left{
+    width: 30%;
+    height: 320px;
+     background-color: #63b512;
+}
+#center{
+    width: 60%;
+    height: 320px;
+    background-color: #63b512;
+}
+#right{
+    width: 30%;
+    height: 320px;
+    background-color: #63b512;
+}
+#menu-bar{
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+    font-family: "Concert One", sans-serif;
+}
+.list-menu:hover{
+    background-color: white;
+    color: darkgreen;
+    font-style: italic;
+}
+.icon-menu, .text-menu{
+	padding-top: 20px;
+	padding-left:20px; 
+}
+
+.menu{
+   width: 30%;
+    /*height: 350px;*/
+    background-color: #08cf0e;
+    margin-left: 100%;
+    position: fixed;
+    transition: 0.6s;
+    margin-top: 110px;
+    color: black;  
+}
+
+.menu.lihat{
+	margin-left: 69%;
+	transition: 0.6s;
+	
+
+}
+#tutup{
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	background-color: red;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	position: relative;
+
+}
+.sosmed{
+    padding-top: 20px;
+}
+#ginting{
+    width: 90%;
+    /*background-color: yellowgreen;*/
+    color: black;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+@media only screen and (max-width: 700px){
+    .menu.lihat{
+        margin-left: 30%;
+        width: 50%;
+        height: 300px;
+        padding-bottom: 80px;
+        
+    }
+    .frame{
+        width: 80%;
+    }
+    .info-aktivitas{
+    	flex-direction: column;
+    	
+
+
+    }
+    #logo{
+        width: 80px;
+    }
+    .card-aktivitas{
+    	width: 90%;
+    }
+    .menu{
+        width: 100%;
+        height: 300px;
+    }
+    .list-menu{
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .register{
+        width: 100%;
+        margin-left: 0;
+        bottom: 0;
+        height: 60%;
+
+    }
+    #klik-info{
+        margin-left: 20%;
+    }
+    #kata-sambutan{
+        flex-direction: column;
+    }
+    #gbr-kepsek{
+        width: 35%;
+
+    }
+    #right{
+    width: 30%;
+    height: 270px;
+    background-color: #63b512;
+}
+
+
+
+
+
+@media only screen and (max-width: 933px){
+    #location{
+        width: 100px;
+    }
+
+    .icon-sosmed{
+        width: 20%;
+    }
+    #akreditasi{
+        margin-top: 5px;
+    }
+    .ket-vid{
+        margin-bottom: 50px;
+        border-radius: 15px;
+        margin-top: 0px;
+    }
+    #left{
+    height: 200px;
+    }
+    .ket-vid{
+        color: white;
+    }
+    .socialmedia{
+        display:none;
+        width: 0px;
+    }
+    .lokasi{
+        margin-left: -10px;
+    }
+    .info-aktivitas{
+        background-color: white;
+    }
+
+    #logo_yayasan{
+        width: 25%;
+    }
+    #web{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .sosmed{
+        padding: 5px;
+    }
+    .list-menu{
+        margin-left: 0%;
+        background-color: white;
+        width: 100%;
+    }
+    .gbr-sekolah{
+        width: 90%;
+    }
+    #menu-bar{
+        /*font-size: 10pt;*/
+    }
+    .menu.lihat{
+        width: 100%;
+    }
+    .text-menu{
+        width: 100%;
+        padding-left: 20px;
+        /*background-color: blue;*/
+    }
+    #left,#right,#center{
+        width: 100%;
+    }
+    #footer{
+        flex-wrap: wrap;
+    }
+    #right-1{
+        flex-direction: row;
+        /*flex-wrap: wrap;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-sosmed{
+        width: 40%;
+    }
+    .sosmed{
+        width: 70px;
+    }
+    #ginting{
+        color: black;
+        /*background-color: yellowgreen;*/
+        padding: 5px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #right{
+        
+
+    }
+    #center{
+        height: 320px;
+         background-color: #63b512;
+    }
+    .nama-sekolah{
+        width: 70%;
+        background-color: white;
+        color: darkgreen;
+
+       
+    }
+    #bar{
+        width: 20%;
+        background-color: darkgreen;
+
+        
+    }
+
+    #menu-bar{
+        margin-top: 30px;
+        color: yellow;
+        font-size: 10pt;
+
+
+    }
+    .side-logo{
+        width: 10%;
+        
+    }
+    #sma{
+        font-size: 12pt;
+        margin-left: 0;
+        margin-top: 15px;
+
+        
+    }
+   #akreditasi{
+        font-size: 10pt;
+        margin-left: 0;
+        
+   }
+   #jalan{
+    visibility: hidden;
+   }
+   .navbar{
+    height: 70px;
+   }
+   #buku{
+    padding-top: 80px;
+   }
+   .menu{
+    margin-top: 80px;
+   }
+   #logo{
+    width: 50px;
+    margin-left: 15%;
+   }
+/*   .vid-kegiatan{
+    width: 90%;
+   }*/
+
+}
+@media only screen and (max-width: 650px){
+    .side-logo{
+        /*margin-left: 40%;*/
+        width: 20%;
+    }
+    .nama-sekolaj{
+        width: 60%;
+    }
+    .sosmed{
+        /*margin-left: 5px;*/
+    }
+}
+
+/*menu*/
+@media only screen and (max-width: 330px){
+    .side-logo{
+        width: 22%;
+
+    }
+    .nama-sekolah{
+        width: 58%;
+    }
+}
+
+@media only screen and (max-width: 914px){
+    #logo_yayasan{
+        width: 15%;
+    }
+}
+
