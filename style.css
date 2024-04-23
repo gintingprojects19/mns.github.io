@@ -863,3 +863,11 @@ p{
     }
 }
 
+@media only screen and (max-width: 415px){
+    .icon-menu{
+        padding-left:0px;
+    }
+    .list-menu{
+        padding-left: 20px;
+    }
+}
