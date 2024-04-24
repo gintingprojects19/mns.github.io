@@ -1,0 +1,49 @@
+.info_fasilitas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+     
+    width: 40%;
+   /* border-left: 10px solid black;*/
+    
+    margin-bottom: 20px;
+    margin: 20px;
+    
+    
+}
+.ket_lab{
+    padding-left: 30px;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 250;
+    
+}
+.b{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gbr_lab{
+    width: 50%;
+}
+.jdl_lab{
+        border-bottom: 2px solid darkgreen;
+    }
+@media only screen and (max-width: 933px){
+    .info_fasilitas{
+        width: 90%;
+    }
+    .gbr_lab{
+        width: 30%;
+    }
+    .ket_lab{
+        10px;
+    }
+    .jdl_lab{
+        border-bottom: 2px solid darkgreen;
+    }
+}
