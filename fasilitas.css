@@ -46,9 +46,12 @@
     .jdl_lab{
         border-bottom: 2px solid darkgreen;
     }
-    .b{
-        display:flex;
-        flex-wrap:wrap;
+        .info_fasilitas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gbr_lab{
+        width: 100%;
     }
         
 }
