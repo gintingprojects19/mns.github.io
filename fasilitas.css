@@ -46,4 +46,9 @@
     .jdl_lab{
         border-bottom: 2px solid darkgreen;
     }
+    .b{
+        display:flex;
+        flex-wrap:wrap;
+    }
+        
 }
