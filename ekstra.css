@@ -1,0 +1,13 @@
+#eks{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin-bottom: 50px;
+}
+li{
+    padding: 10px;
+    font-size: 16pt;
+    color: darkgreen;
+}
