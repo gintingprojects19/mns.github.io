@@ -2,7 +2,8 @@
     padding-top: 100px;
     display: flex;
     flex-direction: column;
-    
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
     align-items: center;
     margin-bottom: 50px;
 }
@@ -10,4 +11,7 @@ li{
     padding: 10px;
     font-size: 16pt;
     color: darkgreen;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 100;
 }
