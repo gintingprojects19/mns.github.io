@@ -1,6 +1,9 @@
 *{
 	margin: 0;
 }
+.ekslink{
+    text-decoration: none;
+}
 /*video awal*/
 .video{
     width: 100%;
