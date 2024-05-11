@@ -561,6 +561,7 @@ p{
 }
 
 .menu{
+  z-index: 999;
    width: 30%;
     /*height: 350px;*/
     background-color: #08cf0e;
