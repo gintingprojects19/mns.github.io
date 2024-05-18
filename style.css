@@ -814,6 +814,17 @@ p{
 /*   .vid-kegiatan{
     width: 90%;
    }*/
+  .ket-artikel{
+        width: 80%;
+        /*background-color: grey;*/
+        height: 100%;
+        background-image: url(bgphoto.PNG);
+        color: white;
+    }
+    .gbr-artikel{
+        width: 45%;
+        
+    }
 
 }
 @media only screen and (max-width: 650px){
