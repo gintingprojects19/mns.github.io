@@ -62,8 +62,10 @@
     width: 35%;
     height: 500px;
     /*background-color: #08cf0e;*/
-    background: linear-gradient(180deg,#000a05 52.14%,rgb(153 123 71 / 60%) 100.11%);
-    border-radius: 30px;
+/*    background: linear-gradient(180deg,#000a05 52.14%,rgb(153 123 71 / 60%) 100.11%);
+    border-radius: 30px;*/
+    background-image: url(bgphoto.PNG);
+    background-size: cover;
 }
 .vid-frame{
     width: 100%;
